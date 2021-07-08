@@ -219,7 +219,7 @@ main{
 
 
 footer p{
-    visibility: hidden;
+    display: none;
 }
 footer i{
     margin: 25px 0 25px 0;
@@ -228,7 +228,7 @@ footer i{
     text-align: center;
     font-size: 40px;
 }
-                                
+                     
 @media screen and (min-width: 800px) {
 
     .secaoCursos{
@@ -254,7 +254,7 @@ footer i{
 
      
     .secaoCalendar{
-        max-width: 1200px;
+        max-width: 1000px;
         margin: auto;
     }        
     .secaoCalendar h2{
@@ -305,6 +305,6 @@ footer i{
         margin-bottom: 50px;
     }
     footer p {
-        visibility: visible;
+        display: block;
     }
 }
