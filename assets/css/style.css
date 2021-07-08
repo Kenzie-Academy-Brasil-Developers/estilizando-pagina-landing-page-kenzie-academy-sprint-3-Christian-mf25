@@ -219,7 +219,7 @@ main{
 
 
 footer p{
-    visibility: hidden;
+    display: none;
 }
 footer i{
     margin: 25px 0 25px 0;
@@ -232,7 +232,7 @@ footer i{
 @media screen and (min-width: 800px) {
 
     .secaoCursos{
-        max-width: 1200px;
+        max-width: 1500px;
         margin: auto;
     }
     .secaoCursos h2{
@@ -246,6 +246,8 @@ footer i{
     }
         .secaoCursos img{
             width: 40%;
+            max-width: 140px;
+            max-height: 140px;
         }
         .secaoCursos li{
             margin: auto;
@@ -254,7 +256,7 @@ footer i{
 
      
     .secaoCalendar{
-        max-width: 1200px;
+        max-width: 1000px;
         margin: auto;
     }        
     .secaoCalendar h2{
@@ -267,6 +269,7 @@ footer i{
         }
         .calendario li{
             width: 30%;
+            max-width: 260px;
         }
         .calendario-data-rodape button{
             font-size: 32px;
@@ -305,6 +308,6 @@ footer i{
         margin-bottom: 50px;
     }
     footer p {
-        visibility: visible;
+        display: block;
     }
 }
